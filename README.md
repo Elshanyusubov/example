@@ -1,6 +1,4 @@
-### Bota Tolepbergen for Liatrio 
-![BotaSpongeBota](https://media.giphy.com/media/SKGo6OYe24EBG/giphy.gif)
-
+### Elshan
 Technologies Used:
 
 **Terraform**: a tool for building, changing, and versioning infrastructure safely and efficiently.
@@ -61,7 +59,7 @@ The Example App container image stored in AWS ECR container registry. ClusterIP 
 **ecr.tf** 
 
 AWS ECR Repository
-This Terraform resource creates an Amazon Elastic Container Registry (ECR) repository named bota. The repository allows mutable image tags and enables image scanning on push.
+This Terraform resource creates an Amazon Elastic Container Registry (ECR) repository named elshan. The repository allows mutable image tags and enables image scanning on push.
 
 Outputs
 The arn output returns the Amazon Resource Name (ARN) of the ECR repository.
@@ -184,7 +182,7 @@ This sets the number of availability zones to 2.
 ```shell
 project
 ```
-This sets the name of the project to "Liatrio-Bota".
+This sets the name of the project to "Elshan".
 ```shell
 vpc_cidr
 ```
@@ -312,7 +310,4 @@ Security groups documentation: https://docs.aws.amazon.com/vpc/latest/userguide/
 
 
 Author
-Bota Tolepbergen
-
-
-![BotaSpongeBota](https://media.giphy.com/media/3oEdva9BUHPIs2SkGk/giphy.gif)
+Elshan Y.
